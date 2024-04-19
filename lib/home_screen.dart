@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
     final email = data['email'];
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Home"),
+        title: const Text("Home",style: TextStyle(color: Colors.white),),
         centerTitle: true,
         backgroundColor: Theme.of(context).primaryColor,
       ),
@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
               backgroundImage: NetworkImage('https://via.placeholder.com/150'),
             ),
             const SizedBox(height: 10),
-            const Text('Mr. John Smith',
+            const Text('Ali Raza Dar',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
             const SizedBox(height: 20),
             const ListTile(
