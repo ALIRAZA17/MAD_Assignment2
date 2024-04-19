@@ -19,16 +19,15 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 20),
             const CircleAvatar(
               radius: 50,
-              backgroundImage: NetworkImage('https://via.placeholder.com/150'),
             ),
             const SizedBox(height: 10),
-            const Text('Ali Raza Dar',
+            const Text('Dawood Mehmood',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
             const SizedBox(height: 20),
             const ListTile(
               leading: Icon(Icons.phone),
               title: Text('Phone'),
-              subtitle: Text('9933775566'),
+              subtitle: Text('894359345'),
             ),
             ListTile(
               leading: const Icon(Icons.email),
